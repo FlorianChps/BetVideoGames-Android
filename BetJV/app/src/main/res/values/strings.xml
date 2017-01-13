@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">BetJV</string>
+
+
+    <!-- BottomNavigationView strings -->
+    <string name="nav_title_notif">Notifications</string>
+    <string name="nav_title_profile">Profil</string>
+    <string name="nav_title_bet">Créer</string>
+    <string name="nav_title_settings">Settings</string>
+    <string name="nav_title_contact">Contact</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
