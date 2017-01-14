@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary">
+    android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom">
 
         <android.support.design.widget.BottomNavigationView
             android:id="@+id/nav_bottom_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             app:itemBackground="@color/colorPrimaryDark"
             app:itemTextColor="@drawable/nav_bar_color"
             app:itemIconTint="@drawable/nav_bar_color"
             app:menu="@menu/menu_bottom_navigation"/>
-        
-        <android.support.v4.view.ViewPager
-            android:id="@+id/fragmentPager"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
 
-</RelativeLayout>
+        </LinearLayout>
+
+</FrameLayout>
